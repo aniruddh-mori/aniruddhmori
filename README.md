@@ -41,8 +41,8 @@ I enjoy building responsive and user-friendly web applications.
 
 ## 🔗 Connect With Me
 
-- 📧 Email: yourmail@gmail.com  
-- 💼 LinkedIn: https://linkedin.com/in/aniruddhmori/ 
+- 📧 Email: aniruddhmori87@gmail.com 
+- 💼 LinkedIn: https://www.linkedin.com/in/aniruddhmori/
 - 💻 GitHub: https://github.com/aniruddh-mori 
 
 ---
