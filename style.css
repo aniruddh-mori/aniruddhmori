@@ -1,0 +1,383 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", "Sans-Serif";
+}
+
+body {
+    background-color: rgb(1, 1, 55);
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(2, 2, 72);
+    height: 4rem;
+    width: 100vw;
+    align-items: center;
+    position: fixed;
+    top: 1px;
+}
+
+.left {
+    font-size: 1.6rem;
+    margin-right: 3rem;
+}
+
+.right ul {
+    display: flex;
+}
+
+.right ul li {
+    list-style-type: none;
+    margin: 0 1.3rem;
+    font-size: 1.1rem;
+}
+
+.right ul li>a {
+    text-decoration: none;
+    color: white;
+}
+
+.firstSec {
+    margin: 3.5rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.leftside {
+    font-size: 2.9rem;
+    animation: bottomanim 1s ease 0.3s 1 both;
+}
+
+.leftside div {
+    width: 100%;
+}
+
+.firstSec>div {
+    width: 35%;
+}
+
+.firstSec .rightside img {
+    width: 80%;
+}
+
+.purple {
+    color: rgb(184, 134, 231);
+}
+
+main hr {
+    border: 0px;
+    height: 3px;
+    margin: 10rem 2rem 6rem 2.5rem;
+    background-color: rgb(100, 100, 138);
+}
+
+.about-section .first-about {
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+    font-size: 1.5rem;
+}
+
+.second-about {
+    display: flex;
+    justify-content: space-around;
+    margin: 5rem 0 6rem 0;
+}
+
+.second-about .icon {
+    width: fit-content;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 5rem;
+    align-items: center;
+    border: 3px solid rgb(244, 244, 245);
+    opacity: 0;
+    transition: all 0.5s ease-in-out 0.01s;
+}
+
+i {
+    color: rgb(125, 125, 128);
+}
+
+.second-about .icon .me {
+    font-size: 1.8rem;
+}
+
+.second-about .icon .post {
+    font-size: 0.9rem;
+    margin-left: 2rem;
+}
+
+.second-about .content {
+    width: 60%;
+    line-height: 1.9;
+    letter-spacing: 0.10rem;
+    font-size: 1.4rem;
+}
+
+.project-section .first-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+}
+
+.project-section .second-project {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-section .second-project .project {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    border: 2px solid lavenderblush;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    opacity: 0;
+}
+
+.second-project .project .left-project {
+    width: 60%;
+    transition: transform 0.3s ease;
+}
+
+.second-project .project .right-project {
+    width: 40%;
+    transition: transform 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project .projectcontent h2 {
+    margin: 1.5rem;
+    font-size: 2rem;
+}
+
+.second-project .project img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all 0.4s ease 0s;
+}
+
+.project .projectcontent {
+    margin-left: 1rem;
+}
+
+.project .projectcontent p {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+
+.project-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.live-btn {
+    padding: 0.6rem 0.4rem;
+    background-color: #0077b6;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 1rem;
+}
+
+.live-btn:hover {
+    background-color: #023e8a;
+    transform: scale(1.05);
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.contact-container {
+    width: 800px;
+    height: 25rem;
+    border: 3px solid lavenderblush;
+}
+
+.contact-container h1 {
+    padding: 2rem;
+}
+
+.contact-container #msg {
+    margin: 1rem;
+    letter-spacing: 1px;
+}
+
+.profiles a {
+    text-decoration: none;
+    color: white;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+
+.icon-container {
+    margin: 0px 1rem 0px 2rem;
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.1s ease 0s;
+}
+
+
+.profile:hover {
+    cursor: pointer;
+}
+
+.line {
+    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    margin: 8rem 4rem 6rem 4rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer p {
+    margin-bottom: 1rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Animation  */
+
+.right ul li :hover {
+    font-size: 1.105rem;
+    color: rgb(95, 95, 128);
+    cursor: pointer;
+}
+
+img:hover {
+    transform: scale(1.06) rotate(0.1deg);
+}
+
+.second-about .icon:hover {
+    box-shadow: 5px 5px #9ca4a9;
+    transform: rotate(-2deg) scale(1.03);
+}
+
+.project:hover {
+    box-shadow: 5px 5px #9ca4a9;
+}
+
+.project .left-project:hover,
+.project .right-project:hover {
+    transform: scale(1.05);
+}
+
+.contact-container:hover {
+    box-shadow: 5px 5px gray;
+}
+
+.icon-container:hover {
+    transform: scale(1.15);
+}
+main .show.contact{
+    animation: visibility 1.5s ease 0.3s 1 both;
+}
+
+.second-about .icon.show {
+    animation: visibility 1.5s ease 0.3s 1 both;
+}
+
+.second-project .show.project:nth-child(1) {
+    animation: leftanim 0.5s ease 0.2s 1 normal both;
+}
+
+.second-project .show.project:nth-child(2) {
+    animation: rightanim 0.5s ease 0.3ms 1 normal both;
+}
+
+.second-project .show.project:nth-child(3) {
+    animation: leftanim 0.5s ease 0.4ms 1 normal both;
+}
+
+@keyframes bottomanim {
+    from {
+        transform: translateY(500px);
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0.9;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes leftanim {
+    from {
+        transform: translateX(-500px);
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0.9;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes rightanim {
+    from {
+        transform: translateX(500px);
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0.9;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes visibility {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

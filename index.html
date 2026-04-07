@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aniruddh Portfolio Site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="left">Aniruddh's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- first part is home page -->
+      <section class="firstSec" id="home">
+        <div class="leftside">
+          Hello, My name is <span class="purple">Aniruddh</span>.
+          <div>I Am a passionate</div>
+          <span id="element" class="purple"></span>
+        </div>
+        <div class="rightside">
+          <img src="photos/bg.png" alt="developerpng" />
+        </div>
+      </section>
+      <hr id="about" />
+
+      <!-- second part is about section -->
+      <section class="about-section">
+        <div class="first-about">
+          <div class="heading">
+            <h1>ABOUT ME</h1>
+          </div>
+        </div>
+        <div class="second-about">
+          <div class="icon">
+            <i class="fa-solid fa-user"></i>
+            <div class="text">
+              <p class="me">Aniruddh Mori</p>
+              <p class="post">Frontend Developer</p>
+            </div>
+          </div>
+          <div class="content">
+            Hello 👋, I'm Aniruddh , a passionate Frontend Developer and a B.Voc
+            IT student. I specialize in creating user-friendly websites using
+            HTML and CSS, JavaScript.I have built several hands-on projects to
+            apply my skills in real-world scenarios and improve my practical
+            knowledge. I enjoy turning ideas into real-world web projects and
+            continuously learning new technologies to enhance my development
+            skills. I am dedicated, self-motivated, and always ready to learn
+            and grow in the field of web development.
+          </div>
+        </div>
+      </section>
+      <hr id="projects" />
+
+      <!-- Third Part is Projects.  -->
+      <section class="project-section">
+        <div class="first-project">
+          <div class="heading">
+            <h1>PROJECTS</h1>
+          </div>
+        </div>
+        <div class="second-project">
+          <div class="project">
+            <div class="left-project">
+              <div class="projectcontent">
+                <div class="project-heading">
+                  <h2>Currency Converter</h2>
+                  <button
+                    class="live-btn"
+                    onclick="
+                      window.open(
+                        ' https://aniruddh-mori.github.io/Currency-Converter/',
+                        '_blank',
+                      )
+                    "
+                  >
+                    Live Demo
+                  </button>
+                </div>
+                <p>
+                  This Currency Converter is a web-based application that allows
+                  users to convert one currency into another using live exchange
+                  rates. The application fetches real-time data from an API and
+                  displays accurate conversion results instantly.
+                </p>
+              </div>
+            </div>
+            <div class="right-project">
+              <img src="photos/curr_photo.png" alt="CurrencyConverter" />
+            </div>
+          </div>
+          <!-- second project  -->
+          <div class="project">
+            <div class="right-project">
+              <img src="photos/weather.png" alt="WeatherApp" />
+            </div>
+            <div class="left-project">
+              <div class="projectcontent">
+                <div class="project-heading">
+                  <button
+                    class="live-btn"
+                    onclick="
+                      window.open(
+                        ' https://aniruddh-mori.github.io/weather-app/',
+                        '_blank',
+                      )
+                    "
+                  >
+                    Live Demo
+                  </button>
+                  <h2>Weather App</h2>
+                </div>
+                <p>
+                  This Weather App is a web-based application that allows users
+                  to check real-time weather conditions by entering a city name.
+                  The application fetches live weather data from an API and
+                  displays information such as temperature, humidity, wind
+                  speed, and weather conditions.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Third project  -->
+          <div class="project">
+            <div class="left-project">
+              <div class="projectcontent">
+                <div class="project-heading">
+                  <h2>Tic Tac Toe</h2>
+                  <button
+                    class="live-btn"
+                    onclick="
+                      window.open(
+                        'https://aniruddh-mori.github.io/tic-tac-toe-js/',
+                        '_blank',
+                      )
+                    "
+                  >
+                    Live Demo
+                  </button>
+                </div>
+                <p>
+                  This Tic Tac Toe game is a browser-based application where two
+                  players can play against each other on the same device. The
+                  game includes logic to detect winning conditions, draws, and
+                  player turns dynamically.I designed an interactive and
+                  responsive interface to enhance user experience.
+                </p>
+              </div>
+            </div>
+            <div class="right-project">
+              <img src="photos/game.png" alt="CurrencyConverter" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr id="contact" />
+
+      <!-- Fourth Section is contact  -->
+      <section class="contact">
+        <div class="contact-container">
+          <h1>Let's Talk With Me!</h1>
+          <p id="msg">
+            I'm always eager to learn and work on new projects. If you have an
+            idea or opportunity, feel free to reach out!
+          </p>
+          <div class="profiles">
+            <a href="mailto:aniruddhmori87@gmail.com" target="_blank">
+              <div class="profile">
+                <div class="icon-container">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div>
+                  <strong>Email</strong>
+                  <p>aniruddhmori87@gmail.com</p>
+                </div>
+              </div>
+            </a>
+
+            <a href="https://www.linkedin.com/in/aniruddhmori/" target="_blank">
+              <div class="profile">
+                <div class="icon-container">
+                  <i class="fa-brands fa-linkedin"></i>
+                </div>
+                <div>
+                  <strong>Linkdin</strong>
+                  <p>Aniruddh Mori</p>
+                </div>
+              </div>
+            </a>
+
+            <a href="https://github.com/aniruddh-mori" target="_blank">
+              <div class="profile">
+                <div class="icon-container">
+                  <i class="fa-brands fa-github"></i>
+                </div>
+                <div>
+                  <strong>GitHub</strong>
+                  <p>Aniruddh Mori</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <div class="line"></div>
+      <footer>
+        <a href="https://github.com/aniruddh-mori" target="_blank"
+          ><p><i class="fa-brands fa-github"></i> Visit My GitHub Profile</p></a
+        >
+
+        <p>
+          &copy; 2026 Aniruddh Mori. All rights reserved. Made With &hearts;
+        </p>
+      </footer>
+    </main>
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <script src="script.js" ></script>
+  </body>
+</html>
